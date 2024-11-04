@@ -9,7 +9,7 @@ Document fields (data model):
     `status200` - polling the URLs for a correct response; 
     `common` - checking ssl certificates for validity.
 - String `url` is used to define URL or domain;
-- Boolen "approved"  is used to turn on or off the verification process;
+- Boolen `approved`  is used to turn on or off the verification process;
 
 
 ### Tasks in the scheduler periodically launch services (`local.leporidaeyellow.infrastructure.simplehostwatcher.job`):
